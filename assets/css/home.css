@@ -680,10 +680,6 @@
   min-height: clamp(40rem, 50vh, 60rem);
 }
 
-.why-choose__main-visual:hover .why-choose__main-image {
-  transform: scale(1.02);
-}
-
 .why-choose__benefit-visual {
   position: relative;
 }
@@ -875,8 +871,8 @@
   display: flex;
   align-items: center;
   border-radius: 3rem 0 0 3rem;
+  background-color: var(--color-gray-50);
   padding: clamp(4rem, 6vw, 6rem) clamp(3rem, 4vw, 4rem);
-  background: linear-gradient(135deg, #f0f0f0 0%, var(--color-white) 100%);
 }
 
 .built-around__content {
